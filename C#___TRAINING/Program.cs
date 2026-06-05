@@ -23,5 +23,8 @@ internal class Program
         // 3 - LONG
         long longNumber = 1231232132132132312;
         Console.WriteLine(longNumber);
+
+        Console.WriteLine("INT MAX VALUE => " + int.MaxValue);
+        Console.WriteLine(format: "LONG MAX VALUE => " + long.MaxValue);
     }
 }
