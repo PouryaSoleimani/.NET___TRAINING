@@ -1,4 +1,4 @@
-﻿//Console.WriteLine("HELLO WORLD FORM C# !!!!!!!!!!!!!!!!!!");
+//Console.WriteLine("HELLO WORLD FORM C# !!!!!!!!!!!!!!!!!!");
 //Console.WriteLine("MY NAME IS POURYA , I AM A FULLSTACK DEVELOPER");
 //Console.WriteLine("FIRST GIT INIT");
 
@@ -22,15 +22,14 @@ internal class Program
 
         // 3 - LONG
         long longNumber = 1231232132132132312;
-        Console.WriteLine(longNumber);
-
+        Console.WriteLine(longNumber)
         Console.WriteLine("INT MAX VALUE => " + int.MaxValue);
         Console.WriteLine(format: "LONG MAX VALUE => " + long.MaxValue);
 
         // GET DATA FROM USER -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
         Console.WriteLine("Enter your first name :");
         string userFirstName = Console.ReadLine();
-        
+
         Console.WriteLine("Enter your last name :");
         string userLastName = Console.ReadLine();
 
