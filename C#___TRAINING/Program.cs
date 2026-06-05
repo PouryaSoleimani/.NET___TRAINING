@@ -26,5 +26,17 @@ internal class Program
 
         Console.WriteLine("INT MAX VALUE => " + int.MaxValue);
         Console.WriteLine(format: "LONG MAX VALUE => " + long.MaxValue);
+
+        // GET DATA FROM USER -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        Console.WriteLine("Enter your first name :");
+        string userFirstName = Console.ReadLine();
+        
+        Console.WriteLine("Enter your last name :");
+        string userLastName = Console.ReadLine();
+
+        Console.WriteLine("Enter Your Age : ");
+        string userAge = Console.ReadLine();
+
+        Console.WriteLine("HELLO " + userFirstName + " " + userLastName + " " + userAge + "" + "Years Old");
     }
 }
