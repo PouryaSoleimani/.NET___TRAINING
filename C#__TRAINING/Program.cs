@@ -34,8 +34,9 @@ internal class Program
         string userLastName = Console.ReadLine();
 
         Console.WriteLine("Enter Your Age : ");
+        short age = 0;
         string userAge = Console.ReadLine();
-
-        Console.WriteLine("HELLO " + userFirstName + " " + userLastName + " " + userAge + "" + "Years Old");
+        age = short.Parse(userAge)
+        Console.WriteLine("HELLO " + userFirstName + " " + userLastName + " " + age + "" + "Years Old");
     }
 }
