@@ -1,3 +1,6 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Variables.cs" />
+  </Folder>
   <Project Path="C#___TRAINING/C#___TRAINING.csproj" />
 </Solution>
